@@ -1,0 +1,26 @@
+Pre Install:
+- Import kucoin_1.0.0.sql to your database
+
+Install:
+- Use your envato username and license to activate the provider on bicrypto
+- Go to admin > settings > providers manager
+- Select the provider > click verify
+- Enter your license and envato username and click activate
+- Click install button > click install button on the page that will show up
+- Click optimize after installation is finished
+- Go to ssh > folder of public_html > do (composer dump-autoload) or in plesk in your control panel > php composer > update after refreshing the list
+- Click edit button on the provider > add your details > activate to use
+- visit the following urls after changing staging.web3div.com/ to your domain name
+
+>> https://staging.web3div.com/cron/provider/currenciesToTable
+>> https://staging.web3div.com/cron/provider/marketsToTable
+>> https://staging.web3div.com/cron/provider/pairsToTable
+>> https://staging.web3div.com/cron/provider/markets
+>> https://staging.web3div.com/cron/provider/currencies
+
+Kucoin API Guide:
+
+- Create account on kucoin from here: https://www.kucoin.com/ucenter/signup?rcode=rPM8FKB
+- Create API after adding phone, email, trade phrase
+- Get the API, secret, passphrase and allow trade, deposit, withdrawal permissions
+- Enable kucoin to be used on all IPs
